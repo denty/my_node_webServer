@@ -22,7 +22,7 @@ let server = http.createServer((req, res) => {
         'Content-Type': 'text/html'
       });
     } else {
-      if (pathname.substring(1) == 'index.html') {
+      if (pathname.substring(1) == 'setservercookie.html') {
         res.writeHead(200, {
           'Set-Cookie': 'this is server set-cookie : ' + new Date(),
           'Content-Type': 'text/html'
