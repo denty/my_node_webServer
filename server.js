@@ -1,7 +1,9 @@
 //引入http模块
+let url = require('url');
+let fs = require('fs'); 
 var http = require('http');
 //设置主机名
-var hostName = '176.122.178.23';
+var hostName = '127.0.0.1';
 //设置端口
 var port = 1991;
 //创建服务

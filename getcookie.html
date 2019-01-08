@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,viewport-fit=cover"
+    />
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Helvetica Neue', Helvetica, Arial, 'Hiragino Sans GB',
+          'Microsoft Yahei', STXihei, SimHei, 'WenQuanYi Micro Hei',
+          'Droid Sans', sans-serif;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>cookie:</div>
+    <div id="input-cookie"></div>
+    <script>
+      let cookie = document.cookie;
+      document.getElementById('input-cookie').innerHTML = cookie;
+    </script>
+  </body>
+</html>
