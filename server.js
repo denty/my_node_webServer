@@ -3,9 +3,9 @@ let url = require('url');
 let fs = require('fs'); 
 var http = require('http');
 //设置主机名
-var hostName = '127.0.0.1';
+var hostName = '176.122.178.23';
 //设置端口
-var port = 1991;
+var port = 2009;
 //创建服务
 // var server = http.createServer(function(req, res) {
 //   res.setHeader('Content-Type', 'text/plain');
