@@ -22,9 +22,16 @@ let server = http.createServer((req, res) => {
         'Content-Type': 'text/html'
       });
     } else {
-      res.writeHead(200, {
-        'Content-Type': 'text/html'
-      });
+      if (pathname.substring(1) == 'index.html') {
+        res.writeHead(200, {
+          'Set-Cookie': 'this is server set-cookie : ' + new Date(),
+          'Content-Type': 'text/html'
+        });
+      } else {
+        res.writeHead(200, {
+          'Content-Type': 'text/html'
+        });
+      }
       res.write(data.toString());
     }
     res.end();
