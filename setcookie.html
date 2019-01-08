@@ -14,12 +14,13 @@
           'Droid Sans', sans-serif;
       }
     </style>
-    <script>
-      document.cookie = 'this is cookie'
-    </script>
   </head>
 
   <body>
-      <div>set-cookie</div>
+    <div>set-cookie</div>
+    <script>
+      let date = new Date();
+      document.cookie = 'this is cookie' + date;
+    </script>
   </body>
 </html>
