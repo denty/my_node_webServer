@@ -5,7 +5,7 @@ var http = require('http');
 //设置主机名
 var hostName = '176.122.178.23';
 //设置端口
-var port = 2009;
+var port = 2019;
 //创建服务
 // var server = http.createServer(function(req, res) {
 //   res.setHeader('Content-Type', 'text/plain');
